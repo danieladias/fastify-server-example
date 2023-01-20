@@ -1,0 +1,19 @@
+{
+    "env": {
+        "es2017": true,
+        "node": true
+    },
+    "extends": ["plugin:@typescript-eslint/recommended", "standard-with-typescript", "plugin:prettier/recommended"],
+    "overrides": [
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "plugins": ["@typescript-eslint", "prettier"],
+    "rules": {
+        "prettier/prettier": "error",
+        "no-extra-boolean-cast": 0,
+        "@typescript-eslint/strict-boolean-expressions": "off"
+    }
+}

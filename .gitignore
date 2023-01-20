@@ -1,0 +1,19 @@
+# macOS files
+.DS_Store
+
+# editor files
+.vscode
+.idea
+
+# dotenv environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# node_modules
+node_modules/
+
+# build
+dist/
